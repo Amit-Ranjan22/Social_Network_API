@@ -55,4 +55,17 @@ module.exports = (
       11: "December",
     };
   }
+
+  const dateObj = new Date(timestamp);
+  const formattedMonth = months[dateObj.getMonth()];
+
+  let dayOfMonth;
+
+  if (dateSuffix) {
+    dayOfMonth = addDateSuffix(dateObj.getDate());
+  } else {
+    dayOfMonth = dateObj.getDate();
+  }
+
+  const year = dateObj.getFullYear();
 };
