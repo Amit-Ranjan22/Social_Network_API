@@ -28,3 +28,17 @@ const ReactionSchema = new Schema(
     },
   }
 );
+
+const ThoughtsSchema = new Schema({
+  thoughtText: {
+    type: String,
+    required: true,
+    minLength: 1,
+    maxLength: 280,
+  },
+  createdAt: {
+    type: Date,
+    default: Date.now,
+    get: (createAtval) => dateFormat(createAtval),
+  },
+});
