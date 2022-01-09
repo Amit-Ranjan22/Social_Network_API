@@ -134,3 +134,5 @@ thoughtsControllers = {
       });
   },
 };
+
+module.exports = thoughtsControllers;
