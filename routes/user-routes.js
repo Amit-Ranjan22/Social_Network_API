@@ -9,3 +9,5 @@ const {
   addFriend,
   deleteFriend,
 } = require("../controllers/user-controllers");
+
+router.route("/").get(getAllUsers).post(createUser);
