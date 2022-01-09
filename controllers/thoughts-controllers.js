@@ -114,4 +114,23 @@ thoughtsControllers = {
         res.status(400).json(err);
       });
   },
+  removeReaction({ params }, res) {
+    Thoughts.findOneAndUpdate(
+      { _id: params.thoughtId },
+      { $pull: { reactions: { reactionId: params.reactionId } } },
+      { new: true }
+    )
+      .then((dbThoughtsData) => {
+        if (!dbThoughtsData) {
+          res.status(404).json({ message: "No thoughts found for this id!" });
+          return;
+        }
+
+        res.json(dbThoughtsData);
+      })
+      .catch((err) => {
+        console.log(err);
+        res.status(400).json(err);
+      });
+  },
 };
