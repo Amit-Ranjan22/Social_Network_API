@@ -254,3 +254,25 @@ Now you can go to the Insomnia core to test all the routes.
   Social_Network_API](https://github.com/Amit-Ranjan22/Social_Network_API.git)
 
 ---
+
+<h2 id='contribution'>🧑‍🤝‍🧑 Contribution</h2>
+
+    Amitabh Ranjan
+
+---
+
+<h2 id='questions'>❓ Questions</h2>
+
+<h3>For any question you can reach me at:</h3>
+
+---
+
+<h3>😺GitHub: <a href='https://github.com/Amit-Ranjan22'>Amit-Ranjan22</a></h3>
+
+<h3>📩 Email: <a href='https://mail.google.com/'>amitabh.march22@gmail</a></h3>
+
+---
+
+## ©️ License & Copyright
+
+Licensed under the [MIT License](License-Copyright/LICENSE).
