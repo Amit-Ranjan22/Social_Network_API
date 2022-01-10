@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/Amit-Ranjan22/Social_Network_API#readme",
   "dependencies": {
-    "express": "^4.17.2",
-    "mongoose": "^6.1.5"
+    "express": "^4.17.1",
+    "mongoose": "^5.11.18"
   }
 }
