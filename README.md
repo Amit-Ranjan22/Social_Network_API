@@ -203,6 +203,12 @@ This is not a model, but rather used as the `reaction` field's sub-document sche
 
 ## 🖼️ Gif from Insomnia Core for the created application
 
+The following animations show examples of the application's API routes being tested in Insomnia.
+
+![Demo of routes to return all users, update user, add a friend and delete a friend all being tested in Insomnia.](./Assets/social-network-api-part1.gif)
+
+![Demo of routes to create thought, get all thoughts, update thought, delete thought, add reaction & delete a user, all being tested in Insomnia.](./Assets/social-network-api-part2.gif)
+
 ## 🧪 Tests
 
 ---
@@ -241,8 +247,11 @@ Now you can go to the Insomnia core to test all the routes.
 
 ## 🔌 Link to the walk-through video of the application on Insomnia
 
-- Google Drive Link: [Social_Network_API
-  ]()
+- Google Drive Link to Part-1 of the walk-through video : [Social_Network_API
+  ](https://drive.google.com/file/d/1BYiqIjsq2ycQQeIx7pjTTOeMVfWwpbil/view)
+
+- Google Drive Link to Part-2 of the walk-through video : [Social_Network_API
+  ](https://drive.google.com/file/d/1tnZUx5DtN2dlRrt22QEQ23XMNEfCroxL/view)
 
 ---
 
